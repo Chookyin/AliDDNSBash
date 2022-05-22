@@ -6,11 +6,11 @@
 ## ----- Setting -----
 AccessKeyId="testid"
 AccessKeySec="testsecret"
-DomainRecordId="00000"
+DomainRecordId="764190040916452352"
 # DomainRR, use "@" to set top level domain
-DomainRR="www"
-DomainName="example.com"
-DomainType="A"
+DomainRR="ddns"
+DomainName="chookyin.cn"
+DomainType="AAAA"
 
 # The server address of ALi API
 ALiServerAddr="alidns.aliyuncs.com"
@@ -274,8 +274,8 @@ update_record()
 
 main()
 {
-	describe_record
-	#update_record
+	#describe_record
+	update_record
 }
 
 main
